@@ -1,2 +1,2 @@
-# CompilerStudy
-This is the repository for my CSCI 7950 Independent Study course! 
+# CSCI 7950 - Independent Study in Compiler Writing
+
