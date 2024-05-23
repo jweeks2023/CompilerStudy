@@ -1,4 +1,4 @@
-# CSCI 7950 - Independent Study in Compiler Writing
+# CSCI 7950 - Selected Topics in Compiler Writing
 
 # Learning Outcomes
 <!--
@@ -62,10 +62,11 @@ The program will start on May 20 and finish on July 29th, 2024.
 <!-- List the tools & services you will be using. Please, prefer cross-OS, open-source & free tools as much as possible, and prefer if possible services that are free of charge. -->
 
 # Resources
-- LLVM For Grad Students: https://www.cs.cornell.edu/~asampson/blog/llvm.html
-- LLVM Documentation: https://llvm.org/docs/WritingAnLLVMNewPMPass.html
-- Cornell's Self-Guided Compiler Writing Course: https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/
-- LLVM Tutor: https://github.com/banach-space/llvm-tutor
+1. LLVM For Grad Students: https://www.cs.cornell.edu/~asampson/blog/llvm.html
+2. LLVM Documentation: https://llvm.org/docs/WritingAnLLVMNewPMPass.html
+3. Cornell's Self-Guided Compiler Writing Course: https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/
+4. LLVM Tutor: https://github.com/banach-space/llvm-tutor
+5. Potentially more? (Will likely find out what I need as I go)
 
 
 <!--
