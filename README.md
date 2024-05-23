@@ -43,10 +43,10 @@ Week | Event | Due
 3 (June 3) | - | Reading assignment #1: [Correctness of a Compiler for Arithmetic Expressions](http://jmc.stanford.edu/articles/mcpain.html)<br>Hello World pass due
 4 (June 10) | - | Detection pass checkpoint
 5 (June 17) | Juneteenth Independence Day |  Reading assignment #2: [Finding and Understanding Bugs in C Compilers](https://users.cs.utah.edu/~regehr/papers/pldi11-preprint.pdf)<br>Detection pass due
-6 (June 24) | - | Simple TF pass checkpoint
-7 (July 1) | Independence Day Observance | Simple TF pass due
-8 (July 8) | - | Loop TF pass checkpoint 1
-9 (July 15) | - |  Reading assignment #3: [Deniable Backdoors Using Compiler Bugs](https://www.alchemistowl.org/pocorgtfo/pocorgtfo08.pdf#page=7)<br>Loop TF checkpoint 2
+6 (June 24) | Out of town June 30th -- July 7th | N/A
+7 (July 1) | Independence Day Observance | Simple TF pass checkpoint
+8 (July 8) | - | Simple TF pass due
+9 (July 15) | - |  Reading assignment #3: [Deniable Backdoors Using Compiler Bugs](https://www.alchemistowl.org/pocorgtfo/pocorgtfo08.pdf#page=7)<br>Loop TF checkpoint 
 10 (July 22) | Class ends | Loop TF pass due
 11 (July 29) | - | - 
 
