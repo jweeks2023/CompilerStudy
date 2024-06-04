@@ -7,3 +7,5 @@ I decided to mess around with WSL (specifically move my distro to my other, more
 
 ## Setting up Pass-Writing Environment
 My plan with this is simple: in WSL I will pull this repo and work within it, compiling LLVM from source and writing all my passes in this. From there I will link to my additions to this in the other deliverable folders as they come.
+
+Update: I used the guide provided by LLVM Tutor, but while I was able to install it, I wasn't able to get the test thing working due to an error with lit. More research needed before my setup will be ready to go.
