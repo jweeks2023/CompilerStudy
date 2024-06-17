@@ -1,0 +1,3 @@
+[submodule "llvm/llvm-tutor"]
+	path = llvm/llvm-tutor
+	url = https://github.com/banach-space/llvm-tutor.git

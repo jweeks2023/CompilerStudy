@@ -17,4 +17,6 @@ I took a big break from working on this to focus on the ALG grant work that I ha
 ## Setting up Pass-Writing Evironment
 Update 2: Trying the lit command this morning, it seems to be working now, despite me doing nothing related to it to change it. I'm unsure what caused it to suddenly work (or more likely, what I was doing wrong previously), but I'll take what I can get. Now that I have my setup working, I can continue with writing passes.
 
+Update 3: It seems I incorrectly installed installed llvm-tutor last time, since some files were missing for whatever reason. After reinstalling and correctly building everything with CMake, everything is present.
+
 ## Writing a Hello World Pass
