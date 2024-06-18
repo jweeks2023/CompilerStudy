@@ -56,3 +56,39 @@ That's all there is for this pass though, not much to it, and it should be easy 
 For all the DIY portions of this project, I will be using a instance of the current version of LLVM (which at the time of writing this is LLVM 19) built from source so that I can go through all the motions of building, embedding, and using a custom pass added to LLVM, which the process is well documented in the pass-writing guide mentioned above. Lucky for me, there are already entries in the files so the pass is already registered, I just needed to add a `HelloWorld.cpp` and `HelloWorld.h` file. More information on everything that needs to be added can be found [here](https://llvm.org/docs/WritingAnLLVMNewPMPass.html#basic-code-required).
 
 Once that's done, all you need to do is build `opt`. This takes a long time on the first go round, but subsequent builds should only run against updated files (such is the nature of make). Once `opt` is built, we can test any .ll file with the pass to see the output.
+
+# 6/18/24
+
+## Writing a Hello World Pass
+
+### DIY Time
+
+I created a new .ll file that has some sample functions...
+
+```
+define i32 @foo() {
+	%a = add i32 2, 3
+	ret i32 %a
+}
+
+define void @bar() {
+	ret void
+}
+```
+
+...before running our custom pass against it by using this command:
+
+```
+build/bin/opt -disable-output /tmp/a.ll -passes=helloworld
+```
+
+The `-disable-output` flag simply stops an output file from being created, instead printing the output to the screen. Once run, this is the result of the command:
+
+<figure>
+	<img src="img/optTest.png">
+	<figcaption>
+		Fig. 3: Testing my custom pass against a sample program
+	</figcaption>
+</figure>
+
+Success! The pass is now working! With this we can expand and customize what this pass does to expand it's functionality, which will be left for the next deliverable. All files in the Deliverable 1 directory are copies of the pass files and test program used.
