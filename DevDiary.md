@@ -31,7 +31,15 @@ Before I write my own pass, I wanted to first take a look at how `llvm-tutor` cr
 	</figcaption>
 </figure>
 
-This pass is an *analysis pass*, meaning that it looks at the provided .ll file given and outputs results based on the analysis collected. For example, this pass displays the name of every function in `input_for_hello.c` (and principly, `input_for_hello.ll`) along with the number of arguments for each function. If I add a function to the aforementioned C file, you'll see that the output changes to reflect this.
+This pass is an *analysis pass*, meaning that it looks at the provided .ll file given and outputs results based on the analysis collected. For example, this pass displays the name of every function in `input_for_hello.c` (and principly, `input_for_hello.ll`) along with the number of arguments for each function. If I add a function to the aforementioned C file...
+
+```C
+int newFunc(int a, int b, int c, int d) {
+	return bar(a, fex(b, c, d));
+}
+```
+
+...you'll see that the output changes to reflect this.
 
 <figure>
 	<img src="img/AddedFunction.png">
