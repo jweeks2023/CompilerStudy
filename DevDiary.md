@@ -53,3 +53,6 @@ Looking at [the pass itself](https://github.com/banach-space/llvm-tutor/blob/mai
 That's all there is for this pass though, not much to it, and it should be easy to recreate from scratch (famous last words).
 
 ### DIY Time
+For all the DIY portions of this project, I will be using a instance of the current version of LLVM (which at the time of writing this is LLVM 19) built from source so that I can go through all the motions of building, embedding, and using a custom pass added to LLVM, which the process is well documented in the pass-writing guide mentioned above. Lucky for me, there are already entries in the files so the pass is already registered, I just needed to add a `HelloWorld.cpp` and `HelloWorld.h` file. More information on everything that needs to be added can be found [here](https://llvm.org/docs/WritingAnLLVMNewPMPass.html#basic-code-required).
+
+Once that's done, all you need to do is build `opt`. This takes a long time on the first go round, but subsequent builds should only run against updated files (such is the nature of make). Once `opt` is built, we can test any .ll file with the pass to see the output.
