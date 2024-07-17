@@ -65,6 +65,7 @@ The program will start on May 20 and finish on July 29th, 2024.
 3. Cornell's Self-Guided Compiler Writing Course: https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/
 4. LLVM Tutor: https://github.com/banach-space/llvm-tutor
 5. _Writing a LLVM Pass in 2018_, Min-Yih Hsu: https://medium.com/@mshockwave/writing-llvm-pass-in-2018-preface-6b90fa67ae82
+6. _Writing an LLVM Optimization_: https://www.youtube.com/watch?v=MagR2KY8MQI
 
 
 <!--
