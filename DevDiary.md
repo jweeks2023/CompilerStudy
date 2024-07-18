@@ -117,6 +117,8 @@ make[3]: *** [lib/Passes/CMakeFiles/LLVMPasses.dir/build.make:104: lib/Passes/CM
 
 I'm unsure why this is occurring, as this isn't happening in the LLVM Tutor when I try to run it, but due to my lack of remaining time I'm not sure I'll be able to figure it out for now. 
 
+If I attempt to fix this, I added `OpcodeCounter.cpp` to `llvm/lib/Transforms/Utils/` and `OpcodeCounter.h` to `llvm/include/llvm/Transforms/Utils/` with edits made to the respective CMake files. I will need to undo these changes to rebuild opt again.
+
 # 7/18/24
 
 ## Epilogue
