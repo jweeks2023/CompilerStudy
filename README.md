@@ -41,7 +41,7 @@ The program will start on May 20 and finish on July 29th, 2024.
 | 1 (May 20)   | -                                 | Personal schedule ([template](https://spots.augusta.edu/caubert/teaching/2024/summer/csci8510/templates/template.md))                                      | -                                       |
 | 2 (May 27)   | Memorial Day                      | Summary of pass components and functional pass writing setup                                                                                               | Summary: 2, 3, etc.<br>Pass Setup: 1, 4 |
 | 3 (June 3)   | -                                 | Reading assignment #1: [Correctness of a Compiler for Arithmetic Expressions](http://jmc.stanford.edu/articles/mcpain.html)<br>Hello World pass due        | 1, 4                                    |
-| 4 (June 10)  | -                                 | Detection pass checkpoint                                                                                                                                  | 1, 4                                    |
+| 4 (June 10)  | -                                 | Analysis pass checkpoint                                                                                                                                   | 1, 4                                    |
 | 5 (June 17)  | Juneteenth Independence Day       | Reading assignment #2: [Finding and Understanding Bugs in C Compilers](https://users.cs.utah.edu/~regehr/papers/pldi11-preprint.pdf)<br>Detection pass due | 1, 4                                    |
 | 6 (June 24)  | Out of town June 30th -- July 7th | Simple TF pass checkpoint                                                                                                                                  | 1, 4                                    |
 | 7 (July 1)   | Independence Day Observance       | -                                                                                                                                                          | -                                       |
@@ -64,8 +64,8 @@ The program will start on May 20 and finish on July 29th, 2024.
 2. LLVM Documentation: https://llvm.org/docs/WritingAnLLVMNewPMPass.html
 3. Cornell's Self-Guided Compiler Writing Course: https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/
 4. LLVM Tutor: https://github.com/banach-space/llvm-tutor
-5. _Writing a LLVM Pass in 2018_, Min-Yih Hsu: https://medium.com/@mshockwave/writing-llvm-pass-in-2018-preface-6b90fa67ae82
-6. _Writing an LLVM Optimization_: https://www.youtube.com/watch?v=MagR2KY8MQI
+5. Writing a LLVM Pass in 2018, Min-Yih Hsu: https://medium.com/@mshockwave/writing-llvm-pass-in-2018-preface-6b90fa67ae82
+6. Writing an LLVM Optimization: https://www.youtube.com/watch?v=MagR2KY8MQI
 
 
 <!--
